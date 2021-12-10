@@ -1,0 +1,449 @@
+@media screen and (max-width:900px){
+
+    /******** parte negra superior contáctenos ********/
+    .container-contactenos .contactenos{
+        align-items: center;
+    }
+
+    .container-contactenos .vinculate p{
+        font-size: 10px;
+    }
+    .container-contactenos .contactenos a{
+        font-size: 10px;
+    }
+    .container-contactenos .contactenos i{
+        font-size: 15px;
+    }
+    .container-contactenos .vinculate i{
+        font-size: 18px;
+    }
+    
+
+    /******** nav ********/
+    .container-nav .logo h2{
+        font-size: 35px;
+    }
+
+    .header__links li a{
+        font-size: 13px;
+        padding: 0 2px 0 2px;
+    }
+
+    /******** slider ********/
+    .container-slider .slider__img{
+        height:auto;
+    }
+
+    /******** te ofrecemos ********/
+    .contenedor__ofrecemos .titulo__ofrecemos h2{
+        font-size: 30px;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item i{
+        margin-bottom: 20px;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item p{
+        font-size: 15px;
+    }
+
+    /******** imagenes te ofrecemos ********/
+    main .container__grid{
+        height: 500px;
+    }
+
+    /******** clientas satisfechas ********/
+    main .titulo__clientas h2{
+        font-size: 30px;
+        margin: 50px 0 10px 0;
+    }
+}
+
+@media screen and (max-width:740px){
+    /******** botón de wpp ********/
+    body .btn-wsp{
+        font-size: 45px;
+        width: 50px;
+        height: 50px;
+    }
+
+     /******** parte negra superior contáctenos ********/
+    .container-contactenos .contactenos{
+        align-items: center;
+    }
+
+    .container-nav .logo h2{
+        font-size: 30px;
+    }
+
+     /******** hamburguesa ********/
+    .header__acomodar .hamburger{
+        display: block;
+    }
+
+    .hamburger{
+        background:#fff;
+        width: 35px;               /*boton de menu*/
+        height: 35px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .header__links{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 30%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        transition: transform .3s ease-in-out;
+        transform: translate(-110%);
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+    }
+
+    .spread{
+        transform: translate(0);  /* esta clase no se agrega a html, es para usar en javascript, en java lo que hace es aparecer el menu al darle un click*/
+    }
+
+    .header__links .li a{
+        display: block;
+        padding: 30px 0 30px 0;
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        color:rgb(255, 255, 255);
+    }
+
+    /******** te ofrecemos ********/
+    .contenedor__ofrecemos .titulo__ofrecemos h2{
+        font-size: 25px;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item i{
+        margin-bottom: 15px;
+    }
+
+    /******** imagenes te ofrecemos ********/
+    main .container__grid{
+        height: 400px;
+    }
+
+    /******** clientas satisfechas ********/
+    main .titulo__clientas h2{
+        font-size: 25px;
+        margin: 50px 0 10px 0;
+    }
+
+    /******** footer ********/
+    footer .bg__footer .logo figure img{
+        height: 150px;
+        width: 150px;
+    }
+
+    footer .bg__footer .enlaces__footer ul li p{
+        font-size: 13px;
+        margin-bottom: 1px;
+    }
+
+    footer .bg__footer .enlaces__footer ul a{
+        font-size: 11px;
+    }
+
+    footer .bg__footer .contactanos__footer ul li p{
+        font-size: 13px;
+        margin-bottom: 1px;
+    }
+    
+    footer .bg__footer .contactanos__footer ul a{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:600px){
+    /******** imagenes te ofrecemos ********/
+    main .container__grid{
+        height: 300px;
+    }
+
+    /******** clientas satisfechas ********/
+    main .titulo__clientas h2{
+        margin: 40px 0 10px 0;
+    }
+
+    /******** footer ********/
+    footer .bg__footer .logo figure img{
+        height: 130px;
+        width: 130px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+
+    /******** parte negra superior contáctenos ********/
+    .container-contactenos .contactenos{
+        align-items: center;
+    }
+
+    .container-contactenos .vinculate p{
+        font-size: 8px;
+    }
+    .container-contactenos .contactenos a{
+        font-size: 8px;
+    }
+    .container-contactenos .contactenos i{
+        font-size: 13px;
+    }
+    .container-contactenos .vinculate i{
+        font-size: 16px;
+    }
+
+    .container-nav .logo h2{
+        font-size: 27px;
+    }
+
+    .header__links{
+        width: auto;
+    }
+
+    /******** tamaño letras menu responsivo ********/
+    .header__links .li a{
+        font-size: 11px;
+    }
+
+    /******** te ofrecemos ********/
+    .contenedor__ofrecemos .titulo__ofrecemos h2{
+        font-size: 20px;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item i{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    /******** imagenes te ofrecemos ********/
+    main .container__grid{
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+        text-align: center;
+    }
+
+    .container__grid .projects__img{
+        width: 350px;
+        height: 350px;
+    }
+
+    /******** hover imagenes te ofrecemos ********/
+    .container__grid .container__item__hover{
+        top: 0;
+        bottom:0;
+    }
+
+    /******** clientas satisfechas ********/
+    main .titulo__clientas h2{
+        font-size: 25px;
+        margin: 40px 0 10px 0;
+    }
+
+    /******** clientas satisfechas img ********/
+    section .container__clientas .container__item img{
+        height: 350px;
+        width: 200px;
+        cursor: pointer;
+        margin: 20px 0 20px 0;
+    }
+
+    /******** footer ********/
+    footer .bg__footer .logo figure img{
+        height: 115px;
+        width: 115px;
+    }
+
+    footer .bg__footer .enlaces__footer ul li p{
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+
+    footer .bg__footer .enlaces__footer ul a{
+        font-size: 10px;
+    }
+
+    footer .bg__footer .contactanos__footer ul li p{
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+    
+    footer .bg__footer .contactanos__footer ul a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:425px){
+
+    /******** botón de wpp ********/
+    body .btn-wsp{
+        font-size: 40px;
+        width: 45px;
+        height: 45px;
+    }
+
+    /******** nav ********/
+    .container-nav .logo h2{
+        font-size: 20px;
+    }
+
+    .container-contactenos{
+        display: block;
+        flex-direction: column;
+    }
+
+    /******** nav mas espacio con el padding ********/
+    .header__acomodar .container-nav{
+        padding: 10px 0 10px 0;
+    }
+
+    .hamburger{
+        width: 30px;               /*boton de menu*/
+        height: 30px;
+    }
+
+    /******** tamaño letras menu responsivo ********/
+    .header__links .li a{
+        font-size: 10px;
+    }
+
+    /******** te ofrecemos ********/
+    .contenedor__ofrecemos .titulo__ofrecemos h2{
+        font-size: 17px;
+        margin: 30px 0 30px 0;
+    }
+
+     /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item i{
+        font-size: 26px;
+        padding: 10px 10px;
+        border-radius: 50px;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item p{
+        font-size: 12px;
+    }
+
+    /******** imagenes te ofrecemos ********/
+    .container__grid .projects__img{
+        height: 270px;
+    }
+
+    /********img1 imagenes te ofrecemos ********/
+    .container__grid .img1{
+        height: 270px;
+        object-position: center 10%;
+    }
+
+    /******** footer ********/
+    footer .bg__footer .logo figure img{
+        display: none;
+    }
+
+    footer .container__footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .bg__footer .enlaces__footer ul a{
+        display:table-cell;
+        padding: 0 10px 5px 10px;
+    }
+
+    footer .bg__footer .contactanos__footer ul a{
+        display:table-cell ;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media screen and (max-width:360px){
+    body .btn-wsp{
+        bottom: 10px;
+        left: 15px;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    /******** clientas satisfechas ********/
+    main .titulo__clientas h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    body .btn-wsp{
+        bottom: 25px;
+        left: 15px;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__links{
+        width: 30%;
+    }
+
+    /******** tamaño letras menu responsivo ********/
+    .header__links .li a{
+        font-size: 7px;
+        font-weight: 500;
+    }
+
+    /******** te ofrecemos ********/
+    .contenedor__ofrecemos .titulo__ofrecemos h2{
+        font-size: 13px;
+        margin: 20px 0 20px 0;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item p{
+        font-size: 11px;
+    }
+
+    /******** te ofrecemo iconos textos ********/
+    .contenedor__ofrecemos .iconos__ofrecemos .iconos__item i{
+        margin-bottom: 5px;
+    }
+
+    /******** imagenes te ofrecemos ********/
+    .container__grid .projects__img{
+        height: 230px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:300px){
+
+    footer .bg__footer .contactanos__footer ul li p{
+        font-size: 10px;
+    }
+
+    footer .bg__footer .contactanos__footer ul a{
+        font-size: 8px;
+    }
+
+    footer .enlaces__footer{
+        display: none;
+    }
+}

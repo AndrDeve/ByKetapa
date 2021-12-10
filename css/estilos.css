@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/******** botón de wpp ********/
+.btn-wsp{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    color: #fff;
+    font-size: 50px;
+    background: #47A93F;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/******** parte negra superior contáctenos ********/
+.container-contactenos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: #000;
+    font-size: 12px;
+}
+
+.vinculate{
+   align-items: center;
+}
+
+.vinculate p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.vinculate i{
+    font-size: 20px;
+    color:#fff;
+    background: #35D119; /* icono verde wpp*/
+    border-radius: 3px;
+}
+
+.contactenos{
+    display:flex;
+    padding-top: 7px;
+    flex-wrap: wrap;
+}
+
+.contactenos a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 0 5px 0 5px;
+}
+
+.contactenos i{
+    align-items: center;
+    font-size: 18px;
+}
+
+.contactenos a:hover{
+    color: rgb(194, 138, 65);
+    transition: 0.4s;
+}
+
+/******** Hamburguer hamburguer ********/
+.hamburger{
+    display: none;
+}
+
+
+/******** nav ********/
+.container-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+.logo h2{
+    font-size: 40px;
+}
+
+.header__links{
+    display:flex;
+}
+
+.header__links li{
+    font-size: 14px;
+    list-style: none;
+    padding: 0 6px 0 6px;
+}
+
+.header__links a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.header__links a:hover{
+    color: rgb(194, 138, 65);
+    transition: 0.4s;
+}
+
+
+/******** slider ********/
+
+.container-slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    width: 300%; /*depende el numero de imagenes, si son 4 va 400%*/
+    margin-left: -100%;
+}
+
+.slider__section{
+    width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+    object-position: center 10%; /* acomodar la imagen top se vea mas arroba */
+}
+
+.slider__btn{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background: rgba(0, 0, 0, 0.4);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slider__btn:hover{
+    background: #000;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+/******** te ofrecemos ********/
+
+.titulo__ofrecemos h2{
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.contenedor__ofrecemos .iconos__ofrecemos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.iconos__ofrecemos .iconos__item i{
+    font-size: 40px;
+    background: #000;
+    color: #fff;
+    padding: 18px 18px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.iconos__ofrecemos .iconos__item p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+/******** imagenes te ofrecemos ********/
+
+.container__grid{
+    display: grid;
+    height: 650px;
+    grid-template-areas:     /*posicionar las imagenes mas largas que otras */
+    "img1 img1 img2 img3"
+    "img1 img1 img4 img5";
+    gap: 10px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.container-item{
+    position: relative;
+    width: 100%;         /*tamaño de las imagenes*/
+    height: 100%;
+    overflow: hidden;
+}
+
+.projects__img{
+    width: 100%;
+    height: 100%;              /* igual tamaño de las imagenes */
+    object-fit:cover;
+    border-radius: 3px;
+}
+
+.container-item:nth-of-type(1){
+    grid-area: img1;                   /*ubicar la imagen 1 mas grande a la izquierda */
+}
+
+.container-item:nth-of-type(2){
+    grid-area: img2;
+}
+
+.container-item:nth-of-type(3){
+    grid-area: img3;
+}
+
+.container-item:nth-of-type(4){
+    grid-area: img4;
+}
+
+.container-item:nth-of-type(5){
+    grid-area: img5;
+}
+
+
+/******** hover imagenes te ofrecemos ********/
+.container__item__hover{
+    position: absolute;
+    background: #1515158c;
+    top: 0;
+    left: 0;
+    width: 100%;       /*dar el efecto de lo rojito en la imagen*/
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(-110%);
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+.container-item:hover .container__item__hover{
+    transform: translateX(0%);
+}
+
+.container__item__hover a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/******** clientas satisfechas ********/
+
+.titulo__clientas h2{
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+}
+
+.container__clientas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    background: rgb(238, 238, 238);
+    height: 100%;
+}
+
+.container__clientas .container__item img{
+    height: 400px;
+    width: 250px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
+
+/******** footer ********/
+
+.bg__footer{
+    background: #000;
+    width: 100%;
+}
+
+.container__footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.bg__footer .logo figure img{
+    height: 200px;
+    width: 200px;
+}
+
+.bg__footer .enlaces__footer ul li p{
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+
+.bg__footer .enlaces__footer ul li{
+    margin-bottom:1px;
+}
+
+.bg__footer .enlaces__footer ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.bg__footer .enlaces__footer ul a:hover{
+    color: rgb(194, 138, 65);
+    transition: 0.4s;
+}
+
+.bg__footer .contactanos__footer ul li p{
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.bg__footer .contactanos__footer ul li{
+    margin-bottom: 7px;
+}
+
+.bg__footer .contactanos__footer ul .wa:hover{
+    color: #35D119;
+}
+
+.bg__footer .contactanos__footer ul .ins:hover{
+    color: #df5e2f;
+}
+
+.bg__footer .contactanos__footer ul .fb:hover{
+    color: #0835c7;
+}
+
+.bg__footer .contactanos__footer ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.bg__footer .contactanos__footer ul a:hover{
+    color: rgb(194, 138, 65);
+    transition: 0.4s;
+}
