@@ -364,20 +364,38 @@
     }
 
     footer .container__footer{
-        display: flex;
-        justify-content: space-evenly;
         flex-direction: column;
         text-align: center;
     }
 
+    footer .bg__footer .enlaces__footer ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     footer .bg__footer .enlaces__footer ul a{
-        display:table-cell;
-        padding: 0 10px 5px 10px;
+        margin: 5px 3px 0 10px;
+        font-size: 8px;
+    }
+
+    footer .bg__footer .contactanos__footer ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     footer .bg__footer .contactanos__footer ul a{
-        display:table-cell ;
-        padding: 0 10px 0 10px;
+        margin: 5px 3px 0 10px;
+        font-size: 8px;
+    }
+
+    footer .bg__footer .enlaces__footer ul li p{
+        font-size: 10px;
+    }
+    
+    footer .bg__footer .contactanos__footer ul li p{
+        font-size: 10px;
     }
 }
 
