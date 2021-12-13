@@ -1,6 +1,5 @@
 ScrollReveal().reveal('.titulo__ofrecemos', { delay: 200 });
 ScrollReveal().reveal('.header__acomodar', { delay: 300 });
-ScrollReveal().reveal('.container__footer', { delay: 300 });
 
 
 ScrollReveal().reveal('.titulo__clientas', { delay: 300 });
