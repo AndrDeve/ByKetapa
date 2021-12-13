@@ -393,7 +393,7 @@
     footer .bg__footer .enlaces__footer ul li p{
         font-size: 10px;
     }
-    
+
     footer .bg__footer .contactanos__footer ul li p{
         font-size: 10px;
     }
@@ -406,6 +406,13 @@
         font-size: 20px;
         width: 30px;
         height: 30px;
+    }
+
+    /******** slider botones ********/
+    main .container-slider .slider__btn{
+        width: 28px;
+        height: 28px;
+        font-size: 23px
     }
 
     /******** clientas satisfechas ********/
