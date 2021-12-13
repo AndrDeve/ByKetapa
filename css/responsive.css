@@ -352,6 +352,12 @@
         object-position: center 10%;
     }
 
+    /******** clientas satisfechas img ********/
+    section .container__clientas .container__item img{
+        height: 420px;
+        width: 290px;
+    }
+
     /******** footer ********/
     footer .bg__footer .logo figure img{
         display: none;
@@ -387,6 +393,12 @@
     /******** clientas satisfechas ********/
     main .titulo__clientas h2{
         font-size: 20px;
+    }
+
+    /******** clientas satisfechas img ********/
+    section .container__clientas .container__item img{
+        height: 430px;
+        width: 280px;
     }
 }
 
@@ -441,6 +453,12 @@
 
     footer .bg__footer .contactanos__footer ul a{
         font-size: 8px;
+    }
+
+    /******** clientas satisfechas img ********/
+    section .container__clientas .container__item img{
+        height: 400px;
+        width: 220px;
     }
 
     footer .enlaces__footer{
